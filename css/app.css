@@ -26,6 +26,19 @@
     height: 773px;
 }
 
+.height-409 {
+    height: 409px;
+}
+
+.height-143 {
+    height: 143px;
+}
+
+.background-color-cinza-2 {
+    color: #ffffff;
+    background-color: #333333;
+}
+
 .background-color-cinza {
     background-color: #d8dfd0;
 }
@@ -326,6 +339,40 @@
     margin-top: 550px !important;
 }
 
+.background-image-setima-section {
+    background-image: linear-gradient(0deg, rgba(133,142,153,0.1), rgba(133,142,153,0.1)), url(https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/00f8cd68c92954df8040606c/pexelsphoto3825576.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.tag-p-footer {
+    width: 417px;
+    margin: 49px auto;
+    font-size: 0.875rem;
+}
+
+.margin-left-380 {
+    margin-left: 380px;
+    margin-top: 60px;
+    font-size: 0.8rem;
+}
+
+.tag-a-footer {
+    text-decoration: underline;
+    color: #a3e1f1;
+    display: inline-block;
+    transition: all .5s;
+}
+
+.tag-p-footer-2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    transition: all .5s;
+}
+
+
+
 /* Responsivo */
 
 @media (max-width: 320px) { 
@@ -461,6 +508,20 @@
         height: 1610px;
     }
 
+    .tag-p-footer {
+        width: 280px;
+        margin: 49px auto;
+        font-size: 0.875rem;
+    }
+
+    .display-none {
+        display: none;
+    }
+
+    .height-143 {
+        height: 165px;
+    }
+
 }
   
 @media (min-width: 321px) and (max-width: 375px) {
@@ -587,6 +648,18 @@
     .height-786 {
         height: 1560px;
     }
+
+    .tag-p-footer {
+        width: 335px;
+        margin: 49px auto;
+        font-size: 0.875rem;
+    }
+
+    .margin-left-380 {
+        margin-left: 8px;
+        margin-top: 60px;
+        font-size: 0.7rem;
+    }    
 
 }
   
@@ -715,6 +788,18 @@
         height: 1545px;
     }
 
+    .tag-p-footer {
+        width: 375px;
+        margin: 49px auto;
+        font-size: 0.875rem;
+    }
+
+    .margin-left-380 {
+        margin-left: 10px;
+        margin-top: 60px;
+        font-size: 0.8rem;
+    }
+
 }
   
 @media (min-width: 577px) and (max-width: 768px) {
@@ -786,6 +871,12 @@
         height: 1545px;
     }
 
+    .margin-left-380 {
+        margin-left: 165px;
+        margin-top: 60px;
+        font-size: 0.8rem;
+    }
+
 }
   
 @media (min-width: 769px) and (max-width: 992px) {
@@ -816,6 +907,12 @@
 
     .height-808 {
         height: 755px;
+    }
+
+    .margin-left-380 {
+        margin-left: 295px;
+        margin-top: 60px;
+        font-size: 0.8rem;
     }
 
 }
