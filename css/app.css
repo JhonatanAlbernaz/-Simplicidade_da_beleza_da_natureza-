@@ -6,6 +6,14 @@
     height: 751px;
 }
 
+.height-615 {
+    height: 615px;
+}
+
+.background-color-cinza {
+    background-color: #d8dfd0;
+}
+
 .espacamento-div-header {
     margin: 22px auto 0 0;
     position: absolute;
@@ -100,6 +108,42 @@
     color: inherit;
 }
 
+.border-15px {
+    border: 15px solid transparent;
+    min-height: 493px;
+    text-align: left;
+}
+
+.padding-60px {
+    padding: 60px;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+}
+
+.padding-60px h1 {
+    font-size: 12.5rem;
+    font-weight: 900;
+    line-height: 0.8;
+    margin: 0;
+    color: #ffffff !important;
+    font-family: Roboto,sans-serif;
+}
+
+.padding-60px h2 {
+    font-size: 2.25rem;
+    margin: 5px 0 0;
+    font-family: 'Playfair Display', serif !important;
+    line-height: 1.1;
+    text-align: left;
+}
+
+.padding-60px p {
+    margin: 16px 0 0;
+    font-family: 'Open Sans',sans-serif;
+}
+
 
 
 /* Responsivo */
@@ -162,6 +206,27 @@
         height: 680px;
     }
 
+    .padding-60px {
+        padding: unset !important;
+        justify-content: flex-start;
+        display: flex;
+        flex-direction: column;
+        margin-top: 35px;
+    }
+
+    .height-615 {
+        height: 1205px;
+    }
+
+    .padding-60px h1 {
+        font-size: 10.5rem;
+        font-weight: 900;
+        line-height: 0.8;
+        margin: 0;
+        color: #ffffff !important;
+        font-family: Roboto,sans-serif;
+    }
+
 }
   
 @media (min-width: 321px) and (max-width: 375px) {
@@ -220,6 +285,27 @@
 
     .height-751 {
         height: 680px;
+    }
+
+    .padding-60px {
+        padding: unset !important;
+        justify-content: flex-start;
+        display: flex;
+        flex-direction: column;
+        margin-top: 35px;
+    }
+
+    .height-615 {
+        height: 1035px;
+    }
+
+    .padding-60px h1 {
+        font-size: 10.5rem;
+        font-weight: 900;
+        line-height: 0.8;
+        margin: 0;
+        color: #ffffff !important;
+        font-family: Roboto,sans-serif;
     }
 
 }
@@ -282,6 +368,27 @@
         height: 680px;
     }
 
+    .padding-60px {
+        padding: unset !important;
+        justify-content: flex-start;
+        display: flex;
+        flex-direction: column;
+        margin-top: 35px;
+    }
+
+    .padding-60px h1 {
+        font-size: 10.5rem;
+        font-weight: 900;
+        line-height: 0.8;
+        margin: 0;
+        color: #ffffff !important;
+        font-family: Roboto,sans-serif;
+    }
+
+    .height-615 {
+        height: 1000px;
+    }
+
 }
   
 @media (min-width: 577px) and (max-width: 768px) {
@@ -305,6 +412,10 @@
         display: flex;
     }
 
+    .height-615 {
+        height: 1070px;
+    }
+
 }
   
 @media (min-width: 769px) and (max-width: 992px) {
@@ -317,6 +428,11 @@
         margin-top: -30px;
         width: 110px;
     }
+
+    .height-615 {
+        height: 625px;
+    }
+
 }
   
 @media (min-width: 1201px) {
